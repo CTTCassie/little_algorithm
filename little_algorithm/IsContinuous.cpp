@@ -68,7 +68,7 @@ public:
             cur->next=cloned;
             cur=cloned->next;
         }
-        //复制randow域
+        //复制random域
         cur=pHead;
         while(cur != NULL)
             {
